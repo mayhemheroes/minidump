@@ -1,0 +1,6 @@
+project: minidump
+target: parse-fuzz
+
+cmds:
+  - cmd: /src/mayhem/fuzz_parser.py
+    libfuzzer: true
